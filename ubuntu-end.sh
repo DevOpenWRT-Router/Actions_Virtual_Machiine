@@ -1,5 +1,5 @@
 # This script runs after SSH in Ubuntu instances
-git clone git@github.com:openwrt/openwrt.git
+git clone https://github.com/openwrt/openwrt.git
 cd openwrt
 wget https://downloads.openwrt.org/snapshots/targets/mvebu/cortexa9/feeds.buildinfo  -O feeds.conf.default
 wget https://downloads.openwrt.org/snapshots/targets/mvebu/cortexa9/config.buildinfo -O .config
